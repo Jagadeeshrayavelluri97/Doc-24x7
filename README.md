@@ -1,12 +1,89 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Doc 24x7
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Doc 24x7 is a comprehensive healthcare web application designed to streamline the process of connecting patients with medical professionals. The platform offers a seamless experience for users to learn about available healthcare services, view detailed doctor profiles, and book appointments online with instant feedback. With a modern, responsive interface powered by React and Vite, Doc 24x7 ensures accessibility and ease of use across devices.
 
-## Expanding the ESLint configuration
+The application features a dynamic navigation bar, animated transitions, and a visually appealing layout using Tailwind CSS and icon libraries. Patients can explore a range of medical specialties, check doctor availability, and submit appointment or contact forms securely. Real-time notifications and smooth user interactions make Doc 24x7 an ideal solution for clinics, hospitals, or healthcare providers looking to enhance their digital presence and improve patient engagement.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A modern healthcare web app built with React and Vite, featuring appointment booking, doctor profiles, contact form, and more. Styled with Tailwind CSS and enhanced with interactive UI components.
+
+## Features
+
+- **Responsive Navigation Bar** with smooth scrolling and animated transitions
+- **About Section**: Highlights healthcare services, 24/7 support, and patient testimonials
+- **Doctors Section**: Lists doctors with specialization, experience, and availability
+- **Appointment Booking**: Secure online form with instant feedback (SweetAlert2)
+- **Contact Form**: Send messages directly to the clinic, with success notifications
+- **Modern UI**: Built with Tailwind CSS, Lucide icons, and FontAwesome
+- **Animations**: GSAP-powered transitions for engaging user experience
+- **24/7 Support**: Prominently displayed for user assurance
+
+## Installation
+
+1. **Clone the repository**
+   ```powershell
+   git clone https://github.com/Jagadeeshrayavelluri97/Doc-24x7
+   cd "Doc 24x7"
+   ```
+
+2. **Install dependencies**
+   ```powershell
+   npm install
+   ```
+
+3. **Start the development server**
+   ```powershell
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```powershell
+   npm run build
+   ```
+
+5. **Preview production build**
+   ```powershell
+   npm run preview
+   ```
+
+6. **Lint the code**
+   ```powershell
+   npm run lint
+   ```
+
+## Technologies Used
+
+- **React 18**
+- **Vite**
+- **Tailwind CSS**
+- **FontAwesome & Lucide Icons**
+- **GSAP (Animations)**
+- **SweetAlert2 (Notifications)**
+- **Web3Forms (Form backend)**
+
+## Folder Structure
+
+```
+src/
+  components/
+    About.jsx
+    Appointment.jsx
+    Contact.jsx
+    Doctors.jsx
+    NavBar.jsx
+  App.jsx
+  App.css
+  index.css
+  main.jsx
+public/
+  vite.svg
+```
+
+## Environment
+
+No environment variables required for basic usage. Appointment and contact forms use [Web3Forms](https://web3forms.com/) for backend submission.
+
+## License
+
+MIT
